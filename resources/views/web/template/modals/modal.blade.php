@@ -28,19 +28,17 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-      	<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('imagen/LogoAGC.png')}}" class="logochico" ></a>
+      <!--	<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('imagen/LogoAGC.png')}}" class="logochico" ></a> -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-      	<h3>Nosotros</h3>
-      	<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
+      <div class="modal-body"><br>
+      	<h2>AGC PRODUCCIONES</h2><br>
+      	<div><p>AGC PRODUCCIONES es una empresa que ofrece servicios de realización de videos y <br> fotografia digital corporativo, video de bodas y eventos, desde <b>1990</b> contamos con un <br> equipo de comunicadores audiovisuales innovadores con <b>amplia experiencia</b> en el sector.</p>
+        <p> <h3>Nuestra Misión... </h3><br> Es la de brindar servicios audiovisuales con la mejor tecnología, proponiendo <b>ideas <br> innovadoras</b> que generan  valodres diferenciales y ventajas competitivas para nuestros <br> clientes.</p>
+        <p>Contamos con variedad de <b>equipos de última generación </b> para cubrir todas sus <br>necesidades.</p>
+        </div>
         
       </div>
 

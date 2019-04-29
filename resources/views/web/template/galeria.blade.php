@@ -13,7 +13,7 @@
             	<img src="{{ asset('imagen/muestra/3.jpg')}}" >
           		</a>
 	  	    </div>
-	  	    	  	    <div class="imagen">
+	  	    <div class="imagen">
 	  	    	<a href="{{ asset('imagen/muestra/4.jpg')}}" data-lightbox="roadtrip">
             	<img src="{{ asset('imagen/muestra/4.jpg')}}" >
           		</a>
@@ -63,7 +63,7 @@
             	<img src="{{ asset('imagen/muestra/13.jpg')}}" >
           		</a>
 	  	    </div>
-	  	       	  	   	<div class="imagen">
+	  	    <div class="imagen">
 	  	    	<a href="{{ asset('imagen/muestra/13.jpg')}}" data-lightbox="roadtrip">
             	<img src="{{ asset('imagen/muestra/13.jpg')}}" >
           		</a>

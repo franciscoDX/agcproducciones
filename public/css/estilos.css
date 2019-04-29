@@ -20,6 +20,7 @@ body{
 	width: 100px;
 }
 
+
 /* atributos modal */
 .modal-header{
   border-bottom: 0px;
@@ -30,6 +31,22 @@ body{
 }
 .modal-content{
   background: black;
+}
+.modal-lg { 
+    max-width: 95% !important;
+} 
+.modal-dialog {
+  width: 98%;
+  height: 100%;
+  padding: 0;
+}
+.modal-body{
+font-size: 24px;
+  text-align: center !important;
+  position: center !important;
+}
+.modal-content {
+  height: 99%;
 }
 /* fin atributos modal */
 .navegacion a {
@@ -212,6 +229,10 @@ a.nav-link {color: #fff !important;}
   .galeria-imagenes{
     grid-template-columns: 1fr;
   }
+
+  .modal-lg { 
+    max-width: 100% !important; 
+} 
 }
 .pruebas2{
   padding-left: 0px !important;

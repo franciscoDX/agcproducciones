@@ -15,6 +15,9 @@
       	<li class="nav-item">
          	<a href="#portafolio" data-toggle="modal" data-target="#portafolio" class="nav-link">Portafolio</a>
        	</li>
+        <li class="nav-item">
+          <a href="#servicios" data-toggle="modal" data-target="#servicios" class="nav-link">Servicios</a>
+        </li>
        	<li class="nav-item">
          	<a class="nav-link" href="#">Contacto</a>
        	</li>

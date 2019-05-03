@@ -27,13 +27,32 @@ body{
 }
 .porfolio{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
+
+@media (max-width: 768px){
+  .porfolio{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 500px){
+  .porfolio{
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+
+  }
+}
+
 .modal-content{
   background: black;
+  background-image: url(../imagen/bg_modal.png);
+  background-repeat: no-repeat;
+
 }
 .modal-lg { 
-    max-width: 95% !important;
+  max-width: 95% !important;
 } 
 .modal-dialog {
   width: 98%;
@@ -41,13 +60,35 @@ body{
   padding: 0;
 }
 .modal-body{
-font-size: 24px;
+  font-size: 24px;
   text-align: center !important;
   position: center !important;
 }
 .modal-content {
   height: 99%;
 }
+.porfolio p{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.porfolio a{
+  font-size: 15px;
+  text-decoration: none;
+}
+.coti a{
+  text-decoration: none;
+  border: 1px solid;
+  padding: 5px 30px 10px 30px;
+  border-radius: 8px;
+  transition: .5s;
+}
+.coti a:hover{
+  background:#290b01;
+  
+}
+
+
+/* d79f91 */ 
 /* fin atributos modal */
 .navegacion a {
 	color:#fff;
@@ -59,7 +100,6 @@ font-size: 24px;
 .navegacion a:hover {
 	color:#e74c3c;
   transition: .5s;
-
 }
 a{
   text-decoration: none;
@@ -232,7 +272,7 @@ a.nav-link {color: #fff !important;}
 
   .modal-lg { 
     max-width: 100% !important; 
-} 
+  } 
 }
 .pruebas2{
   padding-left: 0px !important;

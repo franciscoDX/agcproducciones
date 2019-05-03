@@ -27,6 +27,7 @@
   		@include('web.template.partials.footer')
   	</div>
 	  	@include('web.template.modals.modal')
+      @include('web.template.modals.servicios')
 
  
   		<script src="{{asset('plugins/jquery/jquery-3.3.1.min.js')}}"></script>

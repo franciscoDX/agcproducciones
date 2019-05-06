@@ -15,17 +15,33 @@ Route::get('/', function () {
     return view('web.template.index');
 });
 
-Route::get('/portafolio/fotos', function () {
-    return view('web.template.portafolioFoto');
-});
-
-Route::get('/portafolio/fotos/galeria', function () {
-    return view('web.template.galeria');
-});
-
-Route::get('/portafolio/galeria-videos', function () {
-    return view('web.template.portafolioVideo');
-});
-Route::get('/portafolio/galeria-videos/videos', function () {
-    return view('web.template.video');
+Route::group(['prefix' => 'servicios'], function() {
+	Route::group(['prefix' => 'audiovisuales'], function() {
+		Route::get('/', function () {
+		    return view('web.template.servicios.audiovisuales.audiovisuales');
+		});
+		Route::get('/corporativos', function () {
+		    return view('web.template.servicios.audiovisuales.corporativos');
+		});		
+		Route::get('/corporativos/galeria', function () {
+		    return view('web.template.servicios.video');
+		});
+	});
+	Route::group(['prefix' => 'fotografia'], function() {
+		Route::get('/', function () {
+		    return view('web.template.servicios.fotografia.fotografia');
+		});
+		Route::get('/productos', function () {
+		    return view('web.template.servicios.fotografia.productos');
+		});		
+		Route::get('/productos/galeria', function () {
+		    return view('web.template.servicios.galeria');
+		});
+	});
+	Route::get('/galeria-videos', function () {
+	    return view('web.template.portafolioVideo');
+	});
+	Route::get('/galeria-videos/videos', function () {
+	    return view('web.template.video');
+	});
 });

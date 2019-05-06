@@ -86,6 +86,9 @@ body{
   background:#290b01;
   
 }
+.porfolio div{
+  padding-bottom: 10px;
+}
 
 
 /* d79f91 */ 
@@ -130,7 +133,7 @@ a.nav-link {color: #fff !important;}
   grid-template-columns: repeat(4, 1fr);
 
  }
-
+/*
 .galeria-imagenes .imagen:hover{
   animation: 2s balanceo;
   cursor: pointer;
@@ -150,6 +153,7 @@ a.nav-link {color: #fff !important;}
     transform: scale(1.1) rotate(-3deg);
   }
 }
+*/
 /* Fin de Galeria de imagenes y efectos */
 
 /* Catalogo portada*/

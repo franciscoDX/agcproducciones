@@ -1,15 +1,15 @@
 @extends('web.template.main')
 
 @section('content')
-	<div class="d-flex justify-content-between coti">
+	<div class="d-flex pt-3 justify-content-between coti">
 		<h4>Servicios / Audiovisuales / Corporativos</h4>
-		<a class="d-flex align-items-end" href="#">Cotizar</a>
+		<a class="d-flex align-items-end" href="{{ url('cotizar') }}">Cotizar</a>
 	</div>
 	<br>
  	<div class="row justify-content-center">
-        <div class="col-sm-12">
+        <div class="col-sm-12 pb-4">
 	        <div class="embed-responsive embed-responsive-16by9">
-	  			<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/11733079" allowfullscreen></iframe>
+	  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KTyqJeh-u1c" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="col-sm-12">

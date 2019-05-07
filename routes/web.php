@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('web.template.index');
 });
 
+Route::get('/cotizar', function() {
+	return view('web.template.cotizar');
+});
+
 Route::group(['prefix' => 'servicios'], function() {
 	Route::group(['prefix' => 'audiovisuales'], function() {
 		Route::get('/', function () {

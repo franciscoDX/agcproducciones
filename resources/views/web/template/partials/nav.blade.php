@@ -22,7 +22,7 @@
           <a href="#servicios" data-toggle="modal" data-target="#servicios" class="nav-link">Servicios</a>
         </li>
        	<li class="nav-item">
-         	<a class="nav-link" href="#">Contacto</a>
+         	<a class="nav-link" href="{{ url('/cotizar') }}">Contacto</a>
        	</li>
        	<!-- FIN DE MODAL EN links! -->
       </ul>

@@ -1,9 +1,9 @@
 @extends('web.template.main')
 
 @section('content')
-	<div class="d-flex justify-content-between coti">
+	<div class="d-flex pt-3 justify-content-between coti">
 		<h4>Servicios / Audiovisuales</h4>
-		<a class="d-flex align-items-end" href="#">Cotizar</a>
+		<a class="d-flex align-items-end" href="{{ url('cotizar') }}">Cotizar</a>
 	</div>
  	<div class="row">
  		<div class="col-md-6">

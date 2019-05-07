@@ -4,17 +4,21 @@
   box-sizing: border-box;
 
 }
+@font-face {    
+    src:local('Nexa Light'), url('../fonts/NexaLight.woff') format('woff');
+    src:local('Nexa Bold'), url('../fonts/NexaBold.woff') format('woff');
+
+}
 body{
-  background: #290b01 no-repeat center center fixed;
+  background: #000000 no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+  font-family: 'Nexa Light';
 }
-.container-fluid{
-  overflow: hidden;
-}
+
 .logochico{
 	height: auto;
 	width: 100px;
@@ -74,20 +78,27 @@ body{
 .porfolio a{
   font-size: 15px;
   text-decoration: none;
+  color: #d79f91;
+
 }
+
 .coti a{
   text-decoration: none;
   border: 1px solid;
-  padding: 5px 30px 10px 30px;
+  padding: 5px 30px 5px 30px;
   border-radius: 8px;
   transition: .5s;
+  color: white;
 }
 .coti a:hover{
   background:#290b01;
   
 }
+.x{
+  color: white;
+}
 .porfolio div{
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 
@@ -282,3 +293,31 @@ a.nav-link {color: #fff !important;}
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
+/* Inicio Formulario cotizar */
+
+.barra{
+  background: #2F2B28;
+  font-size: 24px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 18px black;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+
+}
+
+@media (max-width: 768px){
+  .barra{
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px){
+  .barra{
+    width: 95%;
+  }
+}
+
+/* Fin Formulario Cotizar */

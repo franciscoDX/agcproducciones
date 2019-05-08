@@ -51,8 +51,9 @@ body{
 
 .modal-content{
   background: black;
-  background-image: url(../imagen/bg_modal.png);
+ /* background-image: url(../imagen/bg_modal.png); */
   background-repeat: no-repeat;
+
 
 }
 .modal-lg { 
@@ -67,6 +68,11 @@ body{
   font-size: 24px;
   text-align: center !important;
   position: center !important;
+  -webkit-transform: translate(0,-50%);
+  -o-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  top: 50%;
+  margin: 0 auto;
 }
 .modal-content {
   height: 99%;
@@ -321,3 +327,66 @@ a.nav-link {color: #fff !important;}
 }
 
 /* Fin Formulario Cotizar */
+
+/* Inicio footer */
+.personalfooter{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 42% 20% 1fr;
+  font-size: 15px;
+  color: #BEBEBE;
+}
+.linea{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #B8B8B8;
+  font-size: 15px;
+  color: #BEBEBE;
+}
+.item1{
+  grid-column: 1 / 2;
+  justify-self: start;
+}
+.item2{
+  grid-column: 2 / 3;
+  justify-self: center;
+  background-image: url(images/logochiquito.png);
+}
+.item3{
+  grid-column: 3 / 4;
+  justify-self: end;
+}
+.item4{
+  grid-column: 2 / 3;
+  justify-self: end;
+}
+
+/*Fin footer */
+
+.vimeo-wrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   pointer-events: none;
+
+}
+.vimeo-wrapper iframe {
+   width: 100vw;
+   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+   min-height: 100vh;
+   min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.opa{
+  background-color: rgb(23, 32, 42, 0.8 );
+}
+.avu{
+  min-height: 600px;
+}

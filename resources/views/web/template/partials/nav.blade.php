@@ -1,4 +1,5 @@
-<div class="pruebas2">
+<div class="pruebas2 opa">
+  <div class="container-fluid col-md-11">
   <nav class="navbar navbar-expand-lg navbar-dark pruebas2">
    	<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('imagen/LogoAGC.png')}}" class="logochico" ></a>
      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,9 +16,9 @@
 {{--       	<li class="nav-item">
          	<a href="#portafolio" data-toggle="modal" data-target="#portafolio" class="nav-link">Portafolio</a>
        	</li> --}}
-        <li class="nav-item">
+{{--         <li class="nav-item">
           <a href="#" class="nav-link">Usuarios</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a href="#servicios" data-toggle="modal" data-target="#servicios" class="nav-link">Servicios</a>
         </li>
@@ -28,4 +29,5 @@
       </ul>
     </div>
   </nav>
+</div>
 </div>

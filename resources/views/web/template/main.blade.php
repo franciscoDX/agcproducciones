@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="{{ asset('plugins/lightbox/css/lightbox.css') }}" >
   </head>
   <body>
-  	<div class="container-fluid col-md-11">
+  	<div>
   		<!-- Navegacion -->
   		@include('web.template.partials.nav')
 
@@ -23,7 +23,7 @@
         @yield('contenido')
       </section>
     </div>
-    <div class="container-fluid col-md-11">
+    <div >
   		@include('web.template.partials.footer')
   	</div>
 	  	@include('web.template.modals.modal')

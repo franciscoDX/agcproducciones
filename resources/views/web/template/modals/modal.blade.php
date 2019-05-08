@@ -5,7 +5,7 @@
       <div class="modal-header">
         <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('imagen/LogoAGC.png')}}" class="logochico" ></a>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <h2 class="x">x</h2>
         </button>
       </div>
       <div class="modal-body porfolio">
@@ -32,7 +32,7 @@
       <div class="modal-header">
         <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('imagen/LogoAGC.png')}}" class="logochico" ></a>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <h2 class="x">x</h2>
         </button>
       </div>
       <div class="modal-body"><br>

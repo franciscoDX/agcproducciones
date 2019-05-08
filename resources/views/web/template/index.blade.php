@@ -2,12 +2,13 @@
 
 @section('contenido')
 	<div class="row justify-content-center">
-        <div class="col-sm-12 pruebas2">	        
-	    	    <video class="video-bg" autoplay muted loop>
-	        		<source src="{{ asset('imagen/Franquicia.mp4')}}" type="video/mp4" />
-	          		<source src="{{ asset('imagen/Franquicia.webm')}}" type="video/webm" />
-	        	</video>
-	  		
+        <div class="col-sm-12 avu">	        
+
 		</div>
+		<div class="vimeo-wrapper">
+   <iframe src="https://player.vimeo.com/video/76979871?background=1&autoplay=1&loop=1&byline=0&title=0"
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
 	</div>
 @endsection

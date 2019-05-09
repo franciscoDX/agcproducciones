@@ -6,13 +6,13 @@
        	<span class="navbar-toggler-icon"></span>
      	</button>
     <div class="collapse navegacion navbar-collapse" id="navbarSupportedContent">
-     	<ul class="navbar-nav ml-auto">
+     	<ul class="navbar-nav ml-auto textoup">
        	<li class="nav-item">
          	<a class="nav-link" href="{{ url('/') }}">Inicio</a>
        	</li>
-       	<li class="nav-item">
-         	<a href="#nosotros" data-toggle="modal" data-target="#nosotros" class="nav-link">Nosotros</a>
-       	</li>
+        <li class="nav-item">
+          <a href="{{ url('nosotros') }}" class="nav-link">Nosotros</a>
+        </li>
 {{--       	<li class="nav-item">
          	<a href="#portafolio" data-toggle="modal" data-target="#portafolio" class="nav-link">Portafolio</a>
        	</li> --}}
@@ -20,7 +20,7 @@
           <a href="#" class="nav-link">Usuarios</a>
         </li> --}}
         <li class="nav-item">
-          <a href="#servicios" data-toggle="modal" data-target="#servicios" class="nav-link">Servicios</a>
+          <a href="{{ url('servicios') }}" class="nav-link">Servicios</a>
         </li>
        	<li class="nav-item">
          	<a class="nav-link" href="{{ url('/cotizar') }}">Contacto</a>

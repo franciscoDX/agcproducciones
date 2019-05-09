@@ -1,12 +1,13 @@
 @extends('web.template.main')
 
 @section('content')
+<div class="container-fluid col-md-11">
 	<div class="d-flex pt-3 justify-content-between coti">
-		<h4>Servicios / Fotografias / Productos</h4>
+		<h4>Fotografias / Productos</h4>
 		<a class="d-flex align-items-end" href="{{ url('cotizar') }}">Cotizar</a>
 	</div>
 
- 	    <div class="galeria-imagenes">
+ 	    <div class="galeria-imagenes pb-5">
 	  	    <div class="imagen">
 	  	    	<a href="{{ asset('imagen/muestra/2.jpg')}}" data-lightbox="roadtrip">
             	<img src="{{ asset('imagen/muestra/2.jpg')}}" >
@@ -68,4 +69,5 @@
           		</a>
 	  	    </div>
 	  	</div>
+</div>
 @endsection

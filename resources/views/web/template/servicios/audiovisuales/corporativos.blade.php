@@ -1,8 +1,9 @@
 @extends('web.template.main')
 
 @section('content')
+<div class="container-fluid col-md-11">
 	<div class="d-flex pt-3 justify-content-between coti">
-		<h4>Servicios / Audiovisuales / Corporativos</h4>
+		<h4>Audiovisuales / Corporativos</h4>
 		<a class="d-flex align-items-end" href="{{ url('cotizar') }}">Cotizar</a>
 	</div>
  	<div class="row">
@@ -18,6 +19,7 @@
  				</div>
  				</a>
  			</div>
+ 			<div class="text-center"><h2>Entel</h2></div>
  		</div>
  		<div class="col-md-6">
  			<div class="box">
@@ -31,6 +33,7 @@
  				</div>
  				</a>
  			</div>
+ 			<div class="text-center"><h2>Claro</h2></div>
  		</div>
  		<div class="col-md-6">
  			<div class="box">
@@ -44,6 +47,7 @@
  				</div>
  				</a>
  			</div>
+ 			<div class="text-center"><h2>Bitel</h2></div>
  		</div>
  		<div class="col-md-6">
  			<div class="box">
@@ -57,7 +61,8 @@
  				</div>
  				</a>
  			</div>
+ 			<div class="text-center"><h2>Movistar</h2></div>
  		</div>
  	</div>
-
+</div>
 @endsection

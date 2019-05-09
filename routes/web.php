@@ -14,9 +14,20 @@
 Route::get('/', function () {
     return view('web.template.index');
 });
+Route::get('/pago', function () {
+    return view('web.template.pago');
+});
 
 Route::get('/cotizar', function() {
 	return view('web.template.cotizar');
+});
+
+Route::get('/servicios', function() {
+	return view('web.template.partials.servicios');
+});
+
+Route::get('nosotros', function() {
+	return view('web.template.partials.nosotros');
 });
 
 Route::group(['prefix' => 'servicios'], function() {

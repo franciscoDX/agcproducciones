@@ -16,7 +16,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  font-family: 'Nexa Light';
+  font-family: 'Raleway', sans-serif;
 }
 
 .logochico{
@@ -114,7 +114,7 @@ body{
   
 }
 .x{
-  color: white;
+  color: red;
 }
 .porfolio div{
   padding-bottom: 20px;
@@ -199,23 +199,24 @@ a.nav-link {color: #fff !important;}
   padding-top: 15vh;
   font-size: 1.5vw;
 }
+.condi{
+ 
+  font-size: 1.0vw;
+}
+
 @media (max-width: 768px){
   .servi{
-  font-size: 21px;
+  font-size: 18px;
   }
 }
 
 @media (max-width: 500px){
   .servi{
-  font-size: 21px;
+  font-size: 18px;
   }
 }
-.servi h3{
-  padding-bottom: 20px;
-}
-.servi h2{
-  padding-bottom: 20px;
-}
+
+
 .fondologo{
   background-image: url(../imagen/bg_modal.png);
   background-position: center center;

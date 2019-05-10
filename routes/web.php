@@ -26,8 +26,14 @@ Route::get('/servicios', function() {
 	return view('web.template.partials.servicios');
 });
 
-Route::get('nosotros', function() {
+Route::get('/nosotros', function() {
 	return view('web.template.partials.nosotros');
+});
+Route::get('/condiciones', function() {
+	return view('web.template.partials.condiciones');
+});
+Route::get('privacidad', function() {
+	return view('web.template.partials.privacidad');
 });
 
 Route::group(['prefix' => 'servicios'], function() {

@@ -25,15 +25,17 @@ Route::get('/cotizar', function() {
 Route::get('/servicios', function() {
 	return view('web.template.partials.servicios');
 });
-
 Route::get('/nosotros', function() {
 	return view('web.template.partials.nosotros');
 });
 Route::get('/condiciones', function() {
 	return view('web.template.partials.condiciones');
 });
-Route::get('privacidad', function() {
+Route::get('/privacidad', function() {
 	return view('web.template.partials.privacidad');
+});
+Route::get('/clientes', function() {
+	return view('web.template.clientes.clientes');
 });
 
 Route::group(['prefix' => 'servicios'], function() {

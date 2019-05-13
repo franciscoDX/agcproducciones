@@ -16,9 +16,9 @@
 {{--       	<li class="nav-item">
          	<a href="#portafolio" data-toggle="modal" data-target="#portafolio" class="nav-link">Portafolio</a>
        	</li> --}}
-{{--         <li class="nav-item">
-          <a href="#" class="nav-link">Usuarios</a>
-        </li> --}}
+        <li class="nav-item">
+          <a href="{{ url('clientes') }}" class="nav-link">Clientes</a>
+        </li> 
         <li class="nav-item">
           <a href="{{ url('servicios') }}" class="nav-link">Servicios</a>
         </li>

@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="container-fluid col-md-11">
-	<div class="d-flex pt-3 justify-content-between coti">
-		<h4>Fotografias / Productos</h4>
-		<a class="d-flex align-items-end" href="{{ url('cotizar') }}">Cotizar</a>
+	<div class="d-flex pt-3 justify-content-between pb-3">
+		<h4><a href="{{ URL('/servicios') }}">Servicios</a> / <a href="{{ URL('/servicios/fotografia') }}">Fotografía</a> / <a href="{{ URL('/servicios/fotografia/productos') }}">Productos</a></h4>
+		<a class="d-flex align-items-end btn btn-danger" href="{{ url('cotizar') }}">Cotizar</a>
 	</div>
 
  	    <div class="galeria-imagenes pb-5">

@@ -3,7 +3,7 @@
 @section('content')
 <div class="d-flex justify-content-center fondologo">
 	<div class="servi">
-	<h2  class="text-center">SERVICIOS</h2>
+	<h2  class="text-center pb-3">SERVICIOS</h2>
         <div class="porfolio">
           <div class="text-center">
             <h3 class="text-center">AUDIOVISUALES</h3>

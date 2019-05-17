@@ -428,7 +428,7 @@ a.nav-link {color: #fff !important;}
 }
 /*Video home separado y opacidad para menu y footer */
 .opa{
-  background-color: rgb(23, 32, 42, 0.8 );
+  background-color: rgba(23, 32, 42, 0.8 );
 }
 .cuadrovideo{
   min-height: 69vh;

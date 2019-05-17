@@ -23,7 +23,7 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Fecha reserva</label>
-      <input type="date" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="date" class="form-control" id="inputEmail4" placeholder="Fecha reserva">
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Teléfono</label>
@@ -43,8 +43,8 @@
     <div class="form-group col-md-6">
       <label for="secondary">Categoria</label>
       <select id="secondary" class="form-control">
-        <option selected>Selecciona...</option>
-        <option>Manuales de identidad de marca</option>
+        <option selected></option>
+        <option></option>
       </select>
     </div>
   </div>
@@ -52,7 +52,7 @@
     <label for="exampleFormControlTextarea1">Asunto</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="125 Carácteres"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+  <button type="submit" class="btn btn-primary btn-lg col-md-4">Enviar</button>
 </form>
 <div>
 </div>

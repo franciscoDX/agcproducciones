@@ -12,7 +12,7 @@
         <form action="#">
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Nombre y Apellidos</label>
+      <label for="inputEmail4">Nombre y Apellido</label>
       <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre y Apellido">
     </div>
     <div class="form-group col-md-6">

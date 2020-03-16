@@ -4,7 +4,7 @@
 <div class="container-fluid fondologo pb-5">
  	<div class="row pb-3"> 		
         <div class="mx-auto barra">
-            <span>COTIZA CON NOSOTRES</span>
+            <span>COTIZA CON NOSOTROS</span>
         </div>
  	</div>
  	<div class="row"> 		
